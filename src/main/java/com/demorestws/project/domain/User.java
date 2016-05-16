@@ -14,6 +14,7 @@ import org.springframework.format.annotation.DateTimeFormat;
 @Entity(name = "user")
 public class User implements Serializable {
 	private static final long serialVersionUID = 1L;
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "user_id")
@@ -23,7 +24,7 @@ public class User implements Serializable {
 	@Column(name = "last_name")
 	private String lastname;
 	@Column(name = "dob")
-	@DateTimeFormat(pattern="dd/MM/yyyy")
+	@DateTimeFormat(pattern = "dd/MM/yyyy")
 	private Date dob;
 	@Column(name = "house_number")
 	private String housenumber;

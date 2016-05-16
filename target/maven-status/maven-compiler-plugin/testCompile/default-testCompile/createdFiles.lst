@@ -1,2 +1,3 @@
-com/crudrestws/project/service/UserServiceImplTest.class
-com/crudrestws/project/DemoRestWsApplicationTests.class
+com/demorestws/project/web/UserControllerTest.class
+com/demorestws/project/service/UserServiceImplTest.class
+com/demorestws/project/DemoRestWsApplicationTests.class

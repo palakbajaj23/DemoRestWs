@@ -1,2 +1,3 @@
-/home/webwerks/palak/sts_workspace/DemoRestWs/src/test/java/com/crudrestws/project/service/UserServiceImplTest.java
-/home/webwerks/palak/sts_workspace/DemoRestWs/src/test/java/com/crudrestws/project/DemoRestWsApplicationTests.java
+/home/webwerks/palak/sts_workspace/DemoRestWs/src/test/java/com/demorestws/project/web/UserControllerTest.java
+/home/webwerks/palak/sts_workspace/DemoRestWs/src/test/java/com/demorestws/project/service/UserServiceImplTest.java
+/home/webwerks/palak/sts_workspace/DemoRestWs/src/test/java/com/demorestws/project/DemoRestWsApplicationTests.java

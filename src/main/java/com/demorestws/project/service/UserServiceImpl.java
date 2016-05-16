@@ -21,11 +21,6 @@ public class UserServiceImpl implements UserService {
 	}
 
 	@Override
-	public User getUser(long id) {
-		return userRepository.findOne(id);
-	}
-
-	@Override
 	public void deleteUser(User user) {
 		userRepository.delete(user);
 	}
