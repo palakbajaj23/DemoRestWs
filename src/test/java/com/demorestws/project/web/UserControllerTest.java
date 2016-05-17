@@ -4,6 +4,7 @@ import static com.jayway.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
 import static org.junit.Assert.assertThat;
 
+import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.SpringApplicationConfiguration;
@@ -17,16 +18,16 @@ import com.demorestws.project.constant.UserUriConstants;
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringApplicationConfiguration(DemoRestWsApplication.class)
 public class UserControllerTest {
-
+	@Ignore
 	@Test
 	public void shouldAddUserAndReturnAddedUser() throws Exception {
 		String userJsonRequest = "{" + "\"firstname\": \"Myname\"," + " \"lastname\": \"lastname\","
 				+ "\"dob\": \"2015-12-28T12:24:24.786Z\"," + "\"housenumber\": \"5\"," + "\"postcode\": \"123\","
 				+ "\"email\": \"email\"," + "\"password\": \"password\"}";
 
-		Response response = given().body(userJsonRequest).contentType("application/json").expect().statusCode(200).when()
-				.post("http://10.0.10.45:8080/DemoRestWs/" + UserUriConstants.REGISTER_USER);
-		//response.prettyPrint();
+		Response response = given().body(userJsonRequest).contentType("application/json").expect().statusCode(200)
+				.when().post("http://10.0.10.45:8080/DemoRestWs/" + UserUriConstants.REGISTER_USER);
+		// response.prettyPrint();
 		JsonPath jsonPath = new JsonPath(response.asString());
 		assertThat(jsonPath.getString("firstname"), equalTo("Myname"));
 		assertThat(jsonPath.getString("lastname"), equalTo("lastname"));
@@ -35,7 +36,6 @@ public class UserControllerTest {
 		assertThat(jsonPath.getString("postcode"), equalTo("123"));
 		assertThat(jsonPath.getString("email"), equalTo("email"));
 		assertThat(jsonPath.getString("password"), equalTo("password"));
-		
 	}
 
 	/*
