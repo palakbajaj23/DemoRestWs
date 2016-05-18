@@ -1,5 +1,6 @@
 com/demorestws/project/service/UserService.class
 com/demorestws/project/web/UserController.class
+com/demorestws/project/encryption/SimpleMD5ExampleWithSaltMain.class
 com/demorestws/project/domain/User.class
 com/demorestws/project/repository/UserRepository.class
 com/demorestws/project/DemoRestWsApplication.class

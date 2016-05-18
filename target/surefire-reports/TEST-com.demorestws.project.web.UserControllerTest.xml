@@ -24,7 +24,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="os.name" value="Linux"/>
-    <property name="classworlds.conf" value="/home/webwerks/palak/sts_workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf7836173007546290743.tmp"/>
+    <property name="classworlds.conf" value="/home/webwerks/palak/sts_workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf4511474463675145364.tmp"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -61,9 +61,9 @@
   </properties>
   <testcase name="shouldAddUserAndReturnAddedUser" classname="com.demorestws.project.web.UserControllerTest" time="0">
     <skipped/>
-    <system-out><![CDATA[2016-05-16 18:58:56.540  INFO 16110 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.demorestws.project.web.UserControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
-2016-05-16 18:58:56.541  INFO 16110 --- [           main] o.s.t.c.s.DefaultTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
-2016-05-16 18:58:56.541  INFO 16110 --- [           main] o.s.t.c.s.DefaultTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@e97f115, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@5d6b42cf, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@6f8ac8d5, org.springframework.test.context.support.DirtiesContextTestExecutionListener@370225c7, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6ac756b, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@156324b]
+    <system-out><![CDATA[2016-05-18 11:58:46.065  INFO 5515 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.demorestws.project.web.UserControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2016-05-18 11:58:46.067  INFO 5515 --- [           main] o.s.t.c.s.DefaultTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-05-18 11:58:46.067  INFO 5515 --- [           main] o.s.t.c.s.DefaultTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7ce30c0b, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1d7f2f0a, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@54defd69, org.springframework.test.context.support.DirtiesContextTestExecutionListener@531a716c, org.springframework.test.context.transaction.TransactionalTestExecutionListener@377dbc50, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@531ec2ca]
 ]]></system-out>
   </testcase>
 </testsuite>

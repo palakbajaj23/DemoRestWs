@@ -14,7 +14,7 @@ import com.demorestws.project.service.UserService;
 public class UserController {
 	@Autowired
 	private UserService userService;
-
+	// for register a user
 	@RequestMapping(value = UserUriConstants.REGISTER_USER, method = RequestMethod.POST)
 	public User saveUser(@RequestBody User user) {
 		return userService.saveUser(user);

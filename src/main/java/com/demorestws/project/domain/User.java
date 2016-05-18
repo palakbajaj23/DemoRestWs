@@ -11,6 +11,9 @@ import javax.persistence.Id;
 
 import org.springframework.format.annotation.DateTimeFormat;
 
+/*
+ * Represent user entity
+ * */
 @Entity(name = "user")
 public class User implements Serializable {
 	private static final long serialVersionUID = 1L;
