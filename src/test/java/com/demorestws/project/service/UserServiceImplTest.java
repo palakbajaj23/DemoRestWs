@@ -6,6 +6,7 @@ import java.util.Date;
 
 import org.junit.After;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
@@ -17,6 +18,7 @@ import com.demorestws.project.DemoRestWsApplication;
 import com.demorestws.project.domain.User;
 import com.demorestws.project.service.UserService;
 
+@Ignore
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringApplicationConfiguration(DemoRestWsApplication.class)
 public class UserServiceImplTest {
