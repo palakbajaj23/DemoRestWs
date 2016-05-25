@@ -7,6 +7,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.OneToOne;
 
 /**
  * Represent user address
@@ -22,6 +23,9 @@ public class Address implements Serializable {
 	private String street;
 	private String city;
 	private String state;
+	
+	@OneToOne
+	private User user;
 
 	public long getAddressid() {
 		return addressid;
@@ -53,6 +57,14 @@ public class Address implements Serializable {
 
 	public void setState(String state) {
 		this.state = state;
+	}
+
+	public User getUser() {
+		return user;
+	}
+
+	public void setUser(User user) {
+		this.user = user;
 	}
 
 }

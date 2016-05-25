@@ -2,12 +2,15 @@ package com.demorestws.project.domain;
 
 import java.io.Serializable;
 import java.util.Date;
+import java.util.Set;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.OneToMany;
 import javax.persistence.OneToOne;
 
 import org.springframework.format.annotation.DateTimeFormat;
@@ -24,7 +27,7 @@ public class User implements Serializable {
 	@Column(name = "user_id")
 	private long userid;
 	@Column(name = "first_name")
-	private String firstname;
+	private String firstname;;
 	@Column(name = "last_name")
 	private String lastname;
 	@Column(name = "dob")
@@ -38,9 +41,12 @@ public class User implements Serializable {
 	private String email;
 	@Column(name = "password")
 	private String password;
-	@OneToOne
+	@OneToOne(mappedBy="")
 	private Address address;
 
+	@OneToMany(fetch=FetchType.LAZY)
+	private Set<Account> accounts;
+	
 	public Address getAddress() {
 		return address;
 	}
@@ -111,6 +117,14 @@ public class User implements Serializable {
 
 	public void setPassword(String password) {
 		this.password = password;
+	}
+
+	public Set<Account> getAccounts() {
+		return accounts;
+	}
+
+	public void setAccounts(Set<Account> accounts) {
+		this.accounts = accounts;
 	}
 
 }

@@ -2,9 +2,11 @@
 /home/webwerks/palak/sts_workspace/DemoRestWs/src/main/java/com/demorestws/project/repository/UserRepository.java
 /home/webwerks/palak/sts_workspace/DemoRestWs/src/main/java/com/demorestws/project/web/UserController.java
 /home/webwerks/palak/sts_workspace/DemoRestWs/src/main/java/com/demorestws/project/domain/User.java
+/home/webwerks/palak/sts_workspace/DemoRestWs/src/main/java/com/demorestws/project/repository/AccountRepository.java
 /home/webwerks/palak/sts_workspace/DemoRestWs/src/main/java/com/demorestws/project/encryption/SimpleMD5ExampleWithSaltMain.java
 /home/webwerks/palak/sts_workspace/DemoRestWs/src/main/java/com/demorestws/project/domain/Address.java
 /home/webwerks/palak/sts_workspace/DemoRestWs/src/main/java/com/demorestws/project/DemoRestWsApplication.java
 /home/webwerks/palak/sts_workspace/DemoRestWs/src/main/java/com/demorestws/project/repository/AddressRepository.java
+/home/webwerks/palak/sts_workspace/DemoRestWs/src/main/java/com/demorestws/project/domain/Account.java
 /home/webwerks/palak/sts_workspace/DemoRestWs/src/main/java/com/demorestws/project/constant/UserUriConstants.java
 /home/webwerks/palak/sts_workspace/DemoRestWs/src/main/java/com/demorestws/project/service/UserServiceImpl.java
